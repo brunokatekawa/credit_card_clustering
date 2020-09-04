@@ -37,7 +37,7 @@ In this project, I manage to build a model that intakes data from customers, clu
 
 (Wait until the gif starts.)
 
-![](img/clusters_tsne_3d.gif)
+![Clusters](img/clusters_tsne_3d.gif)
 
 <br>
 
