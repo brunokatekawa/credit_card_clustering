@@ -4,7 +4,7 @@
 
 ![](img/banner_title.png)
 
-<span>Photo by <a href="https://unsplash.com/@blakewisz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Blake Wisz</a> on <a href="https://unsplash.com/s/photos/credit-card?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span>
+<font size=2><span>Photo by <a href="https://unsplash.com/@blakewisz?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Blake Wisz</a> on <a href="https://unsplash.com/s/photos/credit-card?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></span></font>
 
 # 1.0 The context
 
@@ -20,7 +20,7 @@ Companies employing customer segmentation operate under the fact that every cust
 
 PS 1: All the references are stated at the end of this README.
 
-PS 2: You can find useful information at **section 1** of my [notebook](https://www.google.com).
+PS 2: You can find useful information at **section 1** of my [notebook](https://github.com/brunokatekawa/credit_card_clustering/blob/master/Credit_Card_Mkt_Clustering.ipynb).
 
 <br>
 
@@ -33,7 +33,9 @@ PS 2: You can find useful information at **section 1** of my [notebook](https://
 
 # 3.0 The solution
 
-In this project, I manage to build a model that intakes data from customers, clusters them into five different groups and extracts their main characteristics in order to prescribe a business marketing strategy.
+In this project, I manage to build a model that intakes data from customers, clusters them into **five different groups** and extracts their main characteristics in order to **prescribe a business marketing strategy**.
+
+(Wait until the gif starts.)
 
 ![](img/clusters_tsne_3d.gif)
 
@@ -116,21 +118,23 @@ As observed, most customers have credit limit up to 20,000 and:
 
 #### Performance Metrics
 
-| Metric            | Score      |
-| ----------------- | ---------- |
-| Silouette         | 0\.3599    |
-| Davies Bouldin    | 1\.0830    |
+| Metric            |      Score |
+| ----------------- | ---------: |
+| Silouette         |    0\.3599 |
+| Davies Bouldin    |    1\.0830 |
 | Calinski Harabasz | 3367\.7952 |
 
-#### Clusters
+#### Visualizing the clusters
 
 ![](img/clusters_tsne.png)
+
+(Wait until the gif starts.)
 
 ![](img/clusters_tsne_3d.gif)
 
 <br>
 
-## 3.1 Business Performance
+## 3.2 Business Performance
 
 ### Profiling the clusters
 
@@ -180,6 +184,8 @@ As observed, most customers have credit limit up to 20,000 and:
 - Use little cash in advance.
 - Considerably high value for payments.
 - **Best payers**.
+
+<br>
 
 ### Business Marketing Strategy
 
