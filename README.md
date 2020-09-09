@@ -120,7 +120,7 @@ As observed, most customers have credit limit up to 20,000 and:
 
 | Metric            |      Score |
 | ----------------- | ---------: |
-| Silouette         |    0\.3599 |
+| Silhouette        |    0\.3599 |
 | Davies Bouldin    |    1\.0830 |
 | Calinski Harabasz | 3367\.7952 |
 
@@ -189,27 +189,24 @@ As observed, most customers have credit limit up to 20,000 and:
 
 ### Business Marketing Strategy
 
-One idea is to apply a business strategy to one of the groups with the aim of increasing the company profit.
+One idea is to apply a business strategy to one of the groups with the aim of increasing the company profit. 
 
-#### Cluster 1
+### Cluster 1
+The most suitable group for this would be Cluster 1, after all it has the **largest number of customers**, they are good payers, good credit limit, but they spend little. Our idea is to engage this group to use their credit card more.
 
-The most suitable group for this would be Cluster 1, after all it has the largest number of customers, they are good payers, good credit limit, but they spend little. Our idea is to engage this group to use their credit card more.
+We want these customers to **spend more** to increase the company profit. Suppose the strategy is to partner with a rewards company that provides benefits to the customer who uses the credit the most.
 
-We want these customers to spend more to increase the company profit. Suppose the strategy is to partner with a rewards company that provides benefits to the customer who uses the credit the most.
+To check if our strategy was effective and use the right group, we'll do the so-called AB test. We'll divide Cluster 1 customers into two groups: the control group and the test group.
 
-To check if our strategy was effective and use the right group, we will do the so-called AB test. We'll divide Cluster 1 customers into two groups: the control group and the test group.
-
-The control group will remain unchanged, that is, there will be no rewards program. The test group, in a defined period, will participate in the rewards program.
+The **control group** will remain unchanged, that is, there will be no rewards program. The **test group**, in a defined period, will participate in the rewards program.
 
 At the end of the period, we'll check if the people who participated in the rewards program spent more with the card or not. So we'll have a reliable result, with customers with similar characteristics.
 
-#### Cluster 4
+### Cluster 4
+Another interesting group to increase profits is cluster 4, after all they **spend a lot on purchases** and are the **best payers**. They don't have a high credit limit, but one way to further encourage credit card use is to **gradually increase** the limit for this group.
 
-Another interesting group to increase profits is cluster 4, after all they spend a lot on purchases and are the best payers. They don't have a high credit limit, but one way to further encourage credit card use is to gradually increase the limit for this group.
-
-#### Cluster 2
-
-For the group with the worst payers, we would have to structure another type of strategy. As they focus on cash in advance, we could launch a campaign to encourage these customers to pay their bills in our bank using cash and in exchange they would be eligible to participate in a rewards program.
+### Cluster 2
+For the group with the **worst payers**, we would have to structure another type of strategy. As they focus on cash in advance, we could **launch a campaign** to encourage these customers to pay their bills in our bank using cash and in exchange they would be eligible to participate in a rewards program.
 
 <br>
 
